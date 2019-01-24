@@ -1,0 +1,18 @@
+home:
+    path: /
+    controller: App\Controller\HomeController
+
+product:
+    path : /products
+    controller: App\Controller\ProductController
+    methods: ["POST","GET"]
+
+
+getProduct:
+    path: /products/{id}
+    controller: App\Controller\Getproduct
+
+
+UpdateProduct:
+    path: /products/{id}/{name}/{price}
+    controller: App\Controller\Updateproduct

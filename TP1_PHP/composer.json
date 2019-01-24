@@ -1,0 +1,6 @@
+{
+    "name": "afrass/tp1_php",
+    "require": {
+        "symfony/http-foundation": "^4.2"
+    }
+}
